@@ -32,22 +32,16 @@ header img {
     margin-top: 10px;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-}
-
 nav ul li a {
     color: #000; /* Cor dos links */
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para a mudança de cor */
 }
 
+nav ul li a:hover {
+    background-color: #fff; /* Fundo branco ao passar o mouse */
+    color: #000; /* Texto preto ao passar o mouse */
+}
 main {
     padding: 20px;
 }
