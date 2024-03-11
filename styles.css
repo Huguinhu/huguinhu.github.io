@@ -40,10 +40,14 @@ header img {
     margin-top: 10px;
 }
 
+nav {
+    text-align: center; /* Centraliza horizontalmente */
+}
+
 nav ul {
     list-style-type: none;
     padding: 0;
-    text-align: center; /* Centraliza horizontalmente */
+    display: inline-block; /* Faz com que a lista fique em linha */
 }
 
 nav ul li {
