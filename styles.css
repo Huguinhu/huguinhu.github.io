@@ -14,59 +14,50 @@ body {
     padding: 0;
     background-color: #fff; /* Fundo branco */
 }
-/* Estilos para Android */
-@media only screen and (max-width: 600px) {
-    header {
-        background-color: #f5ef52; /* Amarelo código f5ef52 */
-        color: #000; /* Cor do texto */
-        padding: 20px;
-        text-align: center;
-        display: flex; /* Usa flexbox para alinhar os elementos */
-        justify-content: space-between; /* Coloca os elementos no início e no final do cabeçalho */
-        align-items: center; /* Alinha os elementos ao centro verticalmente */
-    }
-
-    header img {
-        max-height: 60px; /* Altura máxima da logo */
-    }
-
-    .antara-font {
-        font-family: 'Antara Distance', sans-serif;
-        font-size: 36px;
-        margin-top: 10px;
-    }
-
-    nav {
-        text-align: center; /* Centraliza horizontalmente */
-    }
-
-    nav ul {
-        list-style-type: none;
-        padding: 0;
-        display: inline-block; /* Faz com que a lista fique em linha */
-    }
-
-    nav ul li {
-        display: inline-block; /* Alinha os itens lado a lado */
-        margin-right: 20px; /* Espaçamento entre os itens */
-    }
-
-    nav ul li a {
-        color: #000; /* Cor dos links */
-        text-decoration: none;
-        transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para a mudança de cor */
-    }
-
-    nav ul li a:hover {
-        background-color: #fff; /* Fundo branco ao passar o mouse */
-        color: #000; /* Texto preto ao passar o mouse */
-    }
+header {
+    background-color: #f5ef52; /* Amarelo código f5ef52 */
+    color: #000; /* Cor do texto */
+    padding: 20px;
+    text-align: center;
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    justify-content: space-between; /* Coloca os elementos no início e no final do cabeçalho */
+    align-items: center; /* Alinha os elementos ao centro verticalmente */
 }
 
-/* Estilos para navegador em PC */
-@media only screen and (min-width: 601px) {
-    /* Aqui você pode adicionar os estilos CSS para PC */
-    /* Certifique-se de incluir todos os estilos que deseja aplicar apenas para PC dentro desta media query */
+header img {
+    max-height: 60px; /* Altura máxima da logo */
+}
+
+.antara-font {
+    font-family: 'Antara Distance', sans-serif;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+nav {
+    text-align: center; /* Centraliza horizontalmente */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block; /* Faz com que a lista fique em linha */
+}
+
+nav ul li {
+    display: inline-block; /* Alinha os itens lado a lado */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #000; /* Cor dos links */
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para a mudança de cor */
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* Fundo branco ao passar o mouse */
+    color: #000; /* Texto preto ao passar o mouse */
 }
 
 main {
