@@ -15,8 +15,6 @@ body {
     background-color: #fff; /* Fundo branco */
 }
 
-/* Insira as alterações no seu arquivo CSS existente */
-
 header {
     background-color: #f5ef52; /* Amarelo código f5ef52 */
     color: #000; /* Cor do texto */
@@ -24,17 +22,31 @@ header {
     text-align: center;
 }
 
+header img {
+    max-width: 100px;
+}
+
+.antara-font {
+    font-family: 'Antara Distance', sans-serif;
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
 nav ul li a {
     color: #000; /* Cor dos links */
     text-decoration: none;
-    transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave para a mudança de cor */
 }
-
-nav ul li a:hover {
-    background-color: #fff; /* Fundo branco ao passar o mouse */
-    color: #000; /* Texto preto ao passar o mouse */
-}
-
 
 main {
     padding: 20px;
