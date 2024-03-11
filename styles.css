@@ -73,3 +73,38 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #f5ef52;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
