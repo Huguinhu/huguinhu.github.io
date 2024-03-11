@@ -2,21 +2,24 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f5ef52; /* Amarelo código f5ef52 */
+    background-attachment: fixed; /* Background fixo */
+    background-size: cover;
 }
 
 header {
-    background-color: #f5ef52; /* Amarelo código f5ef52 */
-    color: #000; /* Cor do texto */
+    background-color: rgba(0,0,0,0.5); /* Fundo semi-transparente */
+    color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 header img {
-    max-width: 100px; /* Largura máxima da imagem */
+    max-width: 100px;
 }
 
 header h1 {
-    margin-top: 10px; /* Espaçamento acima do título */
+    margin-top: 10px;
 }
 
 nav ul {
@@ -31,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* Cor dos links */
+    color: #fff;
     text-decoration: none;
 }
 
@@ -48,4 +51,3 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
