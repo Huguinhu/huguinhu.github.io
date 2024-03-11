@@ -38,6 +38,7 @@ header img {
     font-family: 'Antara Distance', sans-serif;
     font-size: 36px;
     margin-top: 10px;
+    margin-left: 10px; /* Adiciona um espaçamento à esquerda do texto */
 }
 
 nav {
