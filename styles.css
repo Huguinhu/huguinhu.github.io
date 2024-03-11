@@ -20,13 +20,8 @@ body {
 header {
     background-color: #f5ef52; /* Amarelo código f5ef52 */
     color: #000; /* Cor do texto */
-    padding: 10px 20px; /* Altere os valores de padding conforme necessário */
+    padding: 20px;
     text-align: center;
-    transition: padding 0.3s; /* Adiciona transição suave para o padding */
-}
-
-header:hover {
-    padding: 5px 20px; /* Altere os valores de padding conforme necessário */
 }
 
 nav ul li a {
