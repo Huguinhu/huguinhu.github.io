@@ -2,14 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5ef52; /* Amarelo código f5ef52 */
-    background-attachment: fixed; /* Background fixo */
-    background-size: cover;
+    background-color: #fff; /* Fundo branco */
 }
 
 header {
-    background-color: rgba(0,0,0,0.5); /* Fundo semi-transparente */
-    color: #fff;
+    background-color: #f5ef52; /* Amarelo código f5ef52 */
+    color: #000; /* Cor do texto */
     padding: 20px;
     text-align: center;
 }
@@ -34,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000; /* Cor dos links */
     text-decoration: none;
 }
 
