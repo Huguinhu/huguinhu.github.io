@@ -20,17 +20,20 @@ header {
     color: #000; /* Cor do texto */
     padding: 20px;
     text-align: center;
-    height: 80px; /* Altura do cabeçalho */
+    display: flex; /* Usa flexbox para alinhar os elementos */
+    justify-content: space-between; /* Alinha os elementos ao longo do eixo principal com espaço entre eles */
+    align-items: center; /* Alinha os elementos ao longo do eixo transversal ao centro */
 }
 
 header img {
-    max-height: 50px; /* Altura máxima do logo */
+    max-height: 60px; /* Altura máxima do logo */
 }
 
 .antara-font {
     font-family: 'Antara Distance', sans-serif;
-    font-size: 34px;
+    font-size: 36px;
     margin-top: 10px;
+    margin-left: 20px; /* Adiciona um espaçamento à esquerda */
 }
 
 nav ul {
