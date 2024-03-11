@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Antara Distance';
+    src: url('fonts/AntaraDistance-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('fonts/Coolvetica-Regular.ttf') format('truetype');
+}
+
 body {
     font-family: Coolvetica, sans-serif;
     margin: 0;
