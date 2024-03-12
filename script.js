@@ -16,27 +16,18 @@ document.addEventListener('DOMContentLoaded', function() {
 let slideIndex = 0;
 
 function showSlides() {
-    const slides = document.querySelectorAll('.carousel img');
-    if (slideIndex >= slides.length) {
-        slideIndex = 0;
+    let slides = document.getElementsByClassName("mySlides");
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
     }
-    if (slideIndex < 0) {
-        slideIndex = slides.length - 1;
-    }
-    const offset = -slideIndex * 100;
-    document.querySelector('.carousel').style.transform = `translateX(${offset}%)`;
-}
-
-function nextSlide() {
     slideIndex++;
-    showSlides();
+    if (slideIndex > slides.length) {
+        slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "block";
+    setTimeout(showSlides, 2000); // Troca de imagem a cada 2 segundos
 }
 
-function prevSlide() {
-    slideIndex--;
-    showSlides();
-}
-
-showSlides();
+showSlides(); // Inicia o slideshow automaticamente
 
 
