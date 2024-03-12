@@ -103,8 +103,9 @@ button {
     margin: auto;
 }
 
-.mySlides {
-    display: none;
+.mySlides img {
+    width: 50%;
+    height: auto;
 }
 
 /* Estilos para as setas de navegação */
