@@ -39,12 +39,15 @@ nav ul li a {
     color: #000; /* Cor original dos links */
     text-decoration: none;
     position: relative;
-    transition: color 0.3s, background-color 0.3s; /* Adiciona transição suave para a mudança de cor e fundo */
+    display: inline-block; /* Adiciona espaço ao redor do texto */
+    padding: 10px 20px; /* Adiciona espaço interno ao redor do texto */
+    transition: color 0.3s, background-color 0.3s, padding 0.3s; /* Adiciona transição suave para a mudança de cor, fundo e padding */
 }
 
 nav ul li a:hover {
-    color: #fff; /* Cor do texto ao passar o mouse */
-    background-color: #f5ef52; /* Fundo amarelo ao passar o mouse */
+    color: #ffd700; /* Cor do texto ao passar o mouse */
+    background-color: #000; /* Fundo preto ao passar o mouse */
+    padding: 15px 25px; /* Aumenta o espaço interno ao redor do texto */
 }
 
 main {
