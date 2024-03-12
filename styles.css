@@ -16,23 +16,19 @@ body {
 }
 /* Estilos para o cabeçalho */
 header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f5ef52; /* Amarelo código f5ef52 */
+    background-color: #ffd700; /* Amarelo código ffd700 */
     color: #000; /* Cor do texto */
     padding: 20px;
     text-align: center;
 }
 
-.logo {
-    margin-bottom: 20px; /* Espaço entre a logo e as opções do menu */
+.logo img {
+    max-height: 50px;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center; /* Centraliza as opções do menu */
 }
 
 nav ul li {
@@ -40,14 +36,18 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* Cor dos links */
+    color: #000; /* Cor original dos links */
     text-decoration: none;
-    transition: color 0.3s, background-color 0.3s;
+    position: relative;
+    display: inline-block; /* Adiciona espaço ao redor do texto */
+    padding: 10px 20px; /* Adiciona espaço interno ao redor do texto */
+    transition: color 0.3s, background-color 0.3s, padding 0.3s; /* Adiciona transição suave para a mudança de cor, fundo e padding */
 }
 
 nav ul li a:hover {
     color: #ffd700; /* Cor do texto ao passar o mouse */
-    background-color: #000; /* Cor de fundo ao passar o mouse */
+    background-color: #000; /* Fundo preto ao passar o mouse */
+    padding: 15px 25px; /* Aumenta o espaço interno ao redor do texto */
 }
 
 main {
