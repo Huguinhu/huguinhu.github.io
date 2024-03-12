@@ -107,18 +107,11 @@ button {
     display: none;
 }
 
-/* Estilos para as imagens do slideshow */
-img {
-    vertical-align: middle;
-}
-
-/* Estilos para os botões de próximo e anterior */
+/* Estilos para as setas de navegação */
 .prev, .next {
-    cursor: pointer;
     position: absolute;
     top: 50%;
     width: auto;
-    margin-top: -30px;
     padding: 16px;
     color: white;
     font-weight: bold;
@@ -128,27 +121,13 @@ img {
     user-select: none;
 }
 
-/* Posicionamento do botão de próximo */
-.next {
-    right: 0;
+.prev {
+    left: 0;
     border-radius: 3px 0 0 3px;
 }
 
-/* Efeito de fade para o slideshow */
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-}
-
-@keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
 
