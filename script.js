@@ -1,22 +1,17 @@
-let slideIndex = 1;
+let slideIndex = 0;
 
 function showSlides() {
     let slides = document.getElementsByClassName("mySlides");
     for (let i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
+    slideIndex++;
     if (slideIndex > slides.length) {
         slideIndex = 1;
     }
-    if (slideIndex < 1) {
-        slideIndex = slides.length;
-    }
     slides[slideIndex - 1].style.display = "block";
+    slides[slideIndex - 1].style.animation = "slide 1s forwards"; // Adiciona a animação de "empurrar" para a próxima imagem
+    setTimeout(showSlides, 2000); // Troca de imagem a cada 2 segundos
 }
 
-function plusSlides(n) {
-    slideIndex += n;
-    showSlides();
-}
-
-showSlides(); // Mostra a primeira imagem ao carregar a página
+showSlides(); // Inicia o slideshow automaticamente
