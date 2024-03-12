@@ -39,8 +39,8 @@ nav ul li a {
     color: #000; /* Cor original dos links */
     text-decoration: none;
     position: relative;
-    top: 10px
-    left: 20px
+    top: 10px;
+    left: 20px;
     display: inline; /* Adiciona espaço ao redor do texto */
     padding: 10px 20px; /* Adiciona espaço interno ao redor do texto */
     transition: color 0.3s, background-color 0.3s, padding 0.3s; /* Adiciona transição suave para a mudança de cor, fundo e padding */
