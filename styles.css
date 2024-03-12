@@ -20,10 +20,13 @@ header {
     color: #000; /* Cor do texto */
     padding: 20px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.logo img {
-    max-height: 50px;
+.logo {
+    margin-bottom: 20px; /* Espaço entre a logo e as opções do menu */
 }
 
 nav ul {
@@ -36,19 +39,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000; /* Cor original dos links */
+    color: #000; /* Cor dos links */
     text-decoration: none;
-    position: relative;
-    display: inline-block; /* Adiciona espaço ao redor do texto */
-    padding: 10px 20px; /* Adiciona espaço interno ao redor do texto */
-    transition: color 0.3s, background-color 0.3s, padding 0.3s; /* Adiciona transição suave para a mudança de cor, fundo e padding */
+    transition: color 0.3s, background-color 0.3s;
 }
 
 nav ul li a:hover {
     color: #ffd700; /* Cor do texto ao passar o mouse */
     background-color: #000; /* Fundo preto ao passar o mouse */
-    padding: 15px 25px; /* Aumenta o espaço interno ao redor do texto */
 }
+
 
 main {
     padding: 20px;
