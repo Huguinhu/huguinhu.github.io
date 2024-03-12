@@ -98,7 +98,7 @@ button {
 
 /* Estilos para o slideshow */
 .slideshow-container {
-    max-width: 800px;
+    max-width: 500px;
     position: relative;
     margin: auto;
 }
