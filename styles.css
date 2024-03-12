@@ -64,8 +64,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    opacity: 0.5; /* Define a opacidade do texto */
 }
-
 .carousel-container {
     position: relative;
     overflow: hidden;
