@@ -5,39 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LiuModas</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Antara+Distance&family=Coolvetica&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <img src="images/by.png" alt="Logo da LiuModas">
-        <h1 class="antara-font">LiuModas</h1>
+        <div class="logo">
+            <img src="logo.png" alt="Logo da LiuModas">
+        </div>
         <nav>
             <ul>
-                <li><a href="#" onclick="showContent('ofertas')">OFERTAS</a></li>
-                <li><a href="#" onclick="showContent('categorias')">CATEGORIAS</a></li>
-                <li><a href="#" onclick="showContent('quem-somos')">QUEM SOMOS NÓS</a></li>
+                <li><a href="#" class="nav-link" onclick="showContent('ofertas')">OFERTAS</a></li>
+                <li><a href="#" class="nav-link" onclick="showContent('categorias')">CATEGORIAS</a></li>
+                <li><a href="#" class="nav-link" onclick="showContent('quem-somos')">QUEM SOMOS NÓS</a></li>
             </ul>
         </nav>
     </header>
-   <main>
-    <div id="ofertas" style="display: none;">
-        <h2>Ofertas</h2>
-        <div class="carousel-container">
-            <div class="carousel">
-                <img src="images/1.jpeg" alt="Oferta 1">
-                <img src="images/2.jpeg" alt="Oferta 2">
-                <img src="images/3.jpeg" alt="Oferta 3">
-            </div>
-            <button class="prev" onclick="prevSlide()">Anterior</button>
-            <button class="next" onclick="nextSlide()">Próxima</button>
-        </div>
-    </div>
-</main>
+    <main>
+        <!-- Conteúdo das abas aqui -->
+    </main>
     <footer>
         <p>&copy; 2024 LiuModas</p>
     </footer>
     <script src="script.js"></script>
 </body>
 </html>
-
